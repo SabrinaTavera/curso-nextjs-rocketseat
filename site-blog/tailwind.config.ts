@@ -64,10 +64,14 @@ module.exports = {
 				'body-md': ['16px', {lineHeight: '150px', fontWeight: '400'}],
 				'body-sm': ['14px', {lineHeight: '150px', fontWeight: '400'}],
 				'body-xs': ['12px', {lineHeight: '150px', fontWeight: '400'}],
+				
+				// Body - Tag
+				'body-tag': ['12px', {lineHeight: '100%', fontWeight: '400'}],
 
 				// Action - Inter 
 				'action-md': ['16px', {lineHeight: 'normal', fontWeight: '500'}],
 				'action-sm': ['14px', {lineHeight: 'normal', fontWeight: '500'}],
+				
 			}
 		}
 	},
