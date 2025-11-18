@@ -1,23 +1,12 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
-import { Button } from "@/components/ui/button";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { HeroSection } from "@/components/hero-section";
 
 export default function Home() {
   return (
-    <div >
-      <h2 className="text-4xl text-red-400">
-        <Button variant="secondary">Button</Button>
-      </h2>
-    </div>
+    <>
+      <article className="flex flex-col">
+        <HeroSection/>
+      </article>
+    </>
+
   );
 }
